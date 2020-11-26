@@ -20,7 +20,7 @@ services:
       - logging
 
   fluentd:
-    image: fluentd-base
+    image: pjoisha/fluentd-base
     volumes:
       - ./fluentd/conf:/fluentd/etc
     deploy:
